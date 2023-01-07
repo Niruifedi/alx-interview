@@ -2,6 +2,9 @@
 
 
 def canUnlockAll(boxes):
+    """
+    function checks returns true if boxes caan be unlocked
+    """
     unlocked = [0]
     for box_id, box in enumerate(boxes):
         if not box:
